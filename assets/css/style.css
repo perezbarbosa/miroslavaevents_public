@@ -474,7 +474,7 @@ img.ph-1x1, img.ph-4x5, img.ph-3x2, img.ph-16x9{
 .contact-info-card ul{ display:flex; flex-direction:column; gap:1.1rem; }
 .contact-info-card li{ display:flex; gap:.9rem; align-items:flex-start; font-size:.95rem; }
 .contact-info-card svg{ flex-shrink:0; width:20px; height:20px; margin-top:2px; }
-.contact-info-card svg path, .contact-info-card svg circle{ fill:none; stroke:var(--c-moss-dark); stroke-width:1.4; }
+.contact-info-card svg path, .contact-info-card svg circle, .contact-info-card svg rect, .contact-info-card svg line{ fill:none; stroke:var(--c-moss-dark); stroke-width:1.4; }
 .contact-info-card a{ text-decoration:underline; text-underline-offset:3px; }
 .area-list{ display:flex; flex-wrap:wrap; gap:.5rem; margin-top:1rem; }
 
