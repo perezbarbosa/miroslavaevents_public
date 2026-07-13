@@ -1,6 +1,15 @@
 <!doctype html>
 <html lang="es">
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KEJB0YLHL4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KEJB0YLHL4');
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Wedding Planner en Barcelona | Miroslava Events — Organización de Bodas</title>
@@ -22,11 +31,8 @@
 <meta name="twitter:image" content="https://miroslava.es/assets/images/og-cover.jpg">
 
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Beau+Rivage&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/css/style.css">
-<link rel="preload" as="image" href="/assets/images/hero-flatlay.jpg" fetchpriority="high">
+<link rel="preload" as="image" href="/assets/images/hero-flatlay.webp" type="image/webp" fetchpriority="high">
 
 <!-- JSON-LD: Organization / ProfessionalService -->
 <script type="application/ld+json">
@@ -197,7 +203,10 @@
       </div>
     </div>
     <div class="hero-media">
-      <img src="/assets/images/hero-flatlay.jpg" alt="Composición de boda con platos de cerámica, flores, arroz y las alianzas de los novios, en los tonos de Miroslava Events" loading="eager" fetchpriority="high">
+      <picture>
+        <source srcset="/assets/images/hero-flatlay.webp" type="image/webp">
+        <img src="/assets/images/hero-flatlay.jpg" alt="Composición de boda con platos de cerámica, flores, arroz y las alianzas de los novios, en los tonos de Miroslava Events" loading="eager" fetchpriority="high" width="1400" height="985">
+      </picture>
       <div class="fade" aria-hidden="true"></div>
     </div>
   </section>
@@ -280,7 +289,10 @@
   <section id="sobre-nosotros">
     <div class="wrap about-grid">
       <div class="reveal">
-        <img class="ph-4x5" src="/assets/images/equipo-miroslava-events.jpg" alt="El equipo de Miroslava Events posando junto a la decoración floral de una boda" loading="lazy" width="896" height="1120">
+        <picture>
+          <source srcset="/assets/images/equipo-miroslava-events.webp" type="image/webp">
+          <img class="ph-4x5" src="/assets/images/equipo-miroslava-events.jpg" alt="El equipo de Miroslava Events posando junto a la decoración floral de una boda" loading="lazy" width="800" height="1000">
+        </picture>
       </div>
       <div class="reveal">
         <span class="kicker">Nuestra misión</span>
@@ -386,7 +398,7 @@
         <div class="reveal">
           <form id="contact-form" data-access-key="b07016eb-401f-40cb-8e98-59d199275e66" novalidate>
             <input type="hidden" name="subject" value="Nueva solicitud desde miroslava.es">
-            <input type="checkbox" name="botcheck" class="sr-only" tabindex="-1" autocomplete="off">
+            <input type="checkbox" name="botcheck" class="sr-only" tabindex="-1" autocomplete="off" aria-label="No completar este campo">
 
             <div class="field-row">
               <div class="field">
